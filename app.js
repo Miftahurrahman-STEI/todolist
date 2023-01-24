@@ -42,7 +42,6 @@ function renderUlangTodo() {
     listTugas.innerHTML = '';
 
     if(todos.length > 0){
-        listTugas.classList.toggle("blank")
         for (let index = 0; index < todos.length; index = index + 1) {
             // <ul id="todos">
             //  <li>Tugas 1</li>
@@ -55,7 +54,6 @@ function renderUlangTodo() {
              </svg></button></li>`
         }
     }else{
-        listTugas.classList.toggle("blank")
         listTugas.innerHTML = '<p>Data not exist</p>';
     }
 }
