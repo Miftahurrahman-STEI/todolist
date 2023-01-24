@@ -94,7 +94,7 @@ svg {
     background-color: #ececec;
 }
 
-.blank {
+.not_data {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,7 +186,7 @@ svg {
         background-color: #ececec;
     }
 
-    .blank {
+    .not_data {
         display: flex;
         justify-content: center;
         align-items: center;
