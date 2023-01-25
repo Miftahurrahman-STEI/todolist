@@ -24,7 +24,7 @@ body {
     /* position: fixed; */
 }
 
-.judul > p{
+.judul p{
     font-size: 13px;
 }
 
@@ -131,9 +131,9 @@ svg {
         /* position: fixed; */
     }
     
-    .judul > p{
+    .judul p{
     font-size: 10px;
-}
+    }
 
 .judul p .love{
     color: red;
