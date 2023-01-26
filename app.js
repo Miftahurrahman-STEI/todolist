@@ -54,7 +54,7 @@ function renderUlangTodo() {
              </svg></button></li>`
         }
     }else{
-        listTugas.innerHTML = '<p>Data not exist</p>';
+        listTugas.innerHTML = '<p class="not_data">Data not exist</p>';
     }
 }
 
