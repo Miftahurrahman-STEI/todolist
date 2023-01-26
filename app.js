@@ -11,9 +11,7 @@ let listTugas = document.getElementById('todos') // <ul id="todos"> </ul>
 listTugas.style.fontFamily = 'Poppins';
 const inputTodo = document.getElementById('input-todo')
 inputTodo.addEventListener("keyup",function(event){
-    if(inputTodo.value == ""){
-       return false
-    }
+    if(inputTodo.value == "")return false
     if(event.key === 'Enter'){
         ketikaTombolSubmitDiklik()
     }
