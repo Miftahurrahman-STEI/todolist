@@ -28,6 +28,7 @@ document
 // ending baca
 function ketikaTombolSubmitDiklik() {
     const tugasBaru = inputTodo.value;
+    if(inputTodo.value == "")return false
 
     // tambah tugas ke list tugas
     todos.push({
